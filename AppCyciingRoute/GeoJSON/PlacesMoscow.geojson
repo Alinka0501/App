@@ -1,0 +1,155 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Красная пл.",
+                "discipline": "Place",
+                "title": "Красная площадь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.62077354232841,
+                    55.754075202930835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Красная пл., 3",
+                "discipline": "History",
+                "title": "ГУМ",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.62154273683349,
+                    55.754805236350485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Красная пл., 7",
+                "discipline": "Cathedral",
+                "title": "Храм Василия Блаженного",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.62315117301477,
+                    55.752667808159174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "улица Варварка домовладение 6",
+                "discipline": "Theatre",
+                "title": "Парк Зарядье",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.62885244417898,
+                    55.75162686408282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Театральная пл., 1",
+                "discipline": "Monument",
+                "title": "Большой театр",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61915285528237,
+                    55.76008520658521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Большой Патриарший пер., 7",
+                "discipline": "Cathedral",
+                "title": "Патриаршие пруды",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.59274835767159,
+                    55.763583831443825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Волхонка, 15",
+                "discipline": "Monument",
+                "title": "Храм Христа Спасителя",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.605515357671585,
+                    55.7447884764998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т Мира, 119",
+                "discipline": "Place",
+                "title": "ВДНХ",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.634864900000004,
+                    55.82806914940621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Академика Королева, 15",
+                "discipline": "History",
+                "title": "Останкинская телебашня",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.611662599999995,
+                    55.81977823910842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Пресненская наб., 8",
+                "discipline": "Monument",
+                "title": "Москва-сити",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.53914534232841,
+                    55.74731201864329
+                ]
+            }
+        }
+    ]
+}

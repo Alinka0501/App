@@ -1,0 +1,110 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Кремлевская набережная",
+                "discipline": "History",
+                "title": "Казанский кремль",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.1060614562996,
+                    55.79937835643988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Шейнкмана",
+                "discipline": "Cathedral",
+                "title": "Мечеть Кул Шариф",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.10552920957408,
+                    55.798392349361684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Баумана, 7",
+                "discipline": "Monument",
+                "title": "Памятник дракону Зиланту",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.106030800000006,
+                    55.79594903112812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Федосеевская, 36",
+                "discipline": "Palace",
+                "title": "Дворец Земледельцев",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.111850184657705,
+                    55.80053812167528
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Между проспектом Амирхана и улицей Вишневского",
+                "discipline": "Bridge",
+                "title": "Мост Миллениум",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.14352806136919,
+                    55.80663625894679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Баумана",
+                "discipline": "Monument",
+                "title": "Памятник \"Казанский Кот\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11229749673911,
+                    55.79199776817492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Наб. Кремлевская",
+                "discipline": "Place",
+                "title": "Кремлевская набережная",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.109816099999996,
+                    55.80245746988076
+                ]
+            }
+        }
+    ]
+}

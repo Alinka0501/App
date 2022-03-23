@@ -1,0 +1,830 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Champ de Mars, 5 Av. Anatole France",
+                "discipline": "Cathedral",
+                "title": "Эйфелева башня",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294502757671149,
+                    48.85851833339463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Rue de Rivoli",
+                "discipline": "History",
+                "title": "Лувр",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3377405595201703,
+                    48.860773443569286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. Charles de Gaulle",
+                "discipline": "History",
+                "title": "Триумфальная арка",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2951669748624672,
+                    48.87396811390274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Av. des Champs-Élysées",
+                "discipline": "Theatre",
+                "title": "Елисейские поля",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2977560404798294,
+                    48.873115446847486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "Monument",
+                "title": "Люксембургский сад",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337171228835574,
+                    48.846348788055955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "Cathedral",
+                "title": "Монмартр",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342832007946213,
+                    48.88760329394673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "Monument",
+                "title": "Остров Сите",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3475347023227227,
+                    48.85549383094536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "8 Rue de Montpensier",
+                "discipline": "Place",
+                "title": "Дворец Пале-Рояль",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3371475576711496,
+                    48.863926291326024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "History",
+                "title": "Университет Париж-Сорбонна",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343148961570119,
+                    48.848476870165506
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "40 Bd Haussmann",
+                "discipline": "Monument",
+                "title": "Галерея Лафайет",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.332145171164426,
+                    48.873525985359024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "1 Parvis de la Défense",
+                "discipline": "Cathedral",
+                "title": "Большая арка Дефанс",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.236069184657702,
+                    48.89275298590127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "16 Rue du Repos",
+                "discipline": "History",
+                "title": "Кладбище Пер Лашез",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393515415342298,
+                    48.86164845734132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "1 Av. du Colonel Henri Rol-Tanguy",
+                "discipline": "History",
+                "title": "Катакомбы Парижа",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3323792846577023,
+                    48.8341079251647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "49 Rue Monge",
+                "discipline": "Theatre",
+                "title": "Арены Лютеции",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3528687865067237,
+                    48.84525721204901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "13 Rue de l'Ancienne Comédie",
+                "discipline": "Monument",
+                "title": "Кафе Прокоп",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3388296865067235,
+                    48.85313248984102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "6 Parvis Notre-Dame - Pl. Jean-Paul II",
+                "discipline": "Cathedral",
+                "title": "Нотр-Дам-де-Пари",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3499021000000004,
+                    48.85310938990617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "35 Rue du Chevalier de la Barre",
+                "discipline": "Monument",
+                "title": "Базилика Сакре-Кёр",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343179401849021,
+                    48.886852749467415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "10 Bd du Palais",
+                "discipline": "Place",
+                "title": "Капелла-реликварий Сент-Шапель",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.345025273013447,
+                    48.855558537976485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "2 Imp. Saint-Eustache",
+                "discipline": "History",
+                "title": "Церковь Сент-Эсташ",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3451318288355747,
+                    48.86358792460559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "3 Pl. Saint-Germain des Prés",
+                "discipline": "Monument",
+                "title": "Церковь Сен-Жермен-де-Пре",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3337068698655328,
+                    48.85416502117712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "2 Rue Palatine",
+                "discipline": "Cathedral",
+                "title": "Церковь Сен-Сюльпис",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.335062744177872,
+                    48.851185994225105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "1 Pl. Alphonse Laveran",
+                "discipline": "History",
+                "title": "Церковь Валь-де-Грас",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.341580517741447,
+                    48.84094559377993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Place Sainte-Geneviève",
+                "discipline": "History",
+                "title": "Церковь Сент-Этьен-дю-Мон",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3480145981509795,
+                    48.84672983075432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "158 Bd Haussmann",
+                "discipline": "Theatre",
+                "title": "Музей Жакмар-Андре",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3107981073960846,
+                    48.87542809438854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "1 Rue de la Légion d'Honneur",
+                "discipline": "Monument",
+                "title": "Музей Орсе",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3266043153422977,
+                    48.86013786266706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Jardin Tuileries",
+                "discipline": "Cathedral",
+                "title": "Музей Оранжери",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3226294846577025,
+                    48.864063660440365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Place Georges-Pompidou",
+                "discipline": "Monument",
+                "title": "Центр Жоржа Помпиду",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352245,
+                    48.860797285068315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "77 Rue de Varenne",
+                "discipline": "Place",
+                "title": "Музей Родена",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3158354,
+                    48.85544132415374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "5 Rue de Thorigny",
+                "discipline": "History",
+                "title": "Музей Пикассо",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.362655270889362,
+                    48.85981803416534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. de l'Opéra",
+                "discipline": "Monument",
+                "title": "Опера Гарнье",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3316443153422974,
+                    48.87219551790778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "82 Bd de Clichy",
+                "discipline": "Monument",
+                "title": "Мулен Руж",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3323055441778724,
+                    48.884271357115054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. de la Bastille",
+                "discipline": "Monument",
+                "title": "Опера Бастилии",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3702464153422973,
+                    48.85259361051868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "1 Place Colette",
+                "discipline": "Monument",
+                "title": "Комеди Франсэз",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3359483288355745,
+                    48.86375430792637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. de l'Odéon",
+                "discipline": "Monument",
+                "title": "Одеон",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3386815423288505,
+                    48.84966443959312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "2 Pl. du Châtelet",
+                "discipline": "Monument",
+                "title": "Театр де ла Вилль",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3478659944529365,
+                    48.85762667250929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "116 Av. des Champs-Élysées",
+                "discipline": "Cathedral",
+                "title": "Лидо де Пари",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3007043404798293,
+                    48.872529989292616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "History",
+                "title": "Венсенский лес",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.4326587635697026,
+                    48.83031338035916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. de la Concorde",
+                "discipline": "History",
+                "title": "Сад Тюильри",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.327569401849012,
+                    48.86367510821676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "1 Rue Botzaris",
+                "discipline": "Theatre",
+                "title": "Парк Бют-Шомон",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.382793086506724,
+                    48.88113304419412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "211 Av. Jean Jaurès",
+                "discipline": "Monument",
+                "title": "Парк Ла-Виллет",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3903565595186778,
+                    48.894046404302706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "2 All. Adrienne Lecouvreur",
+                "discipline": "Cathedral",
+                "title": "Марсово поле",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.298651856599804,
+                    48.8558416049026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "35 Bd de Courcelles",
+                "discipline": "Monument",
+                "title": "Парк Монсо",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3089657276306412,
+                    48.87983517741691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. de la Bastille",
+                "discipline": "Place",
+                "title": "Площадь Бастилии",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3692199874925244,
+                    48.85337139947633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "History",
+                "title": "Площадь Согласия",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3211927835071133,
+                    48.86579540651444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. des Vosges",
+                "discipline": "Monument",
+                "title": "Площадь Вогезов",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3658174142718935,
+                    48.856371643786346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. Vendôme",
+                "discipline": "Cathedral",
+                "title": "Вандомская колонна",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.329487842972085,
+                    48.86756332730156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "129 Rue de Grenelle",
+                "discipline": "History",
+                "title": "Дом инвалидов",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312718522434104,
+                    48.856791991547155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "2 Bd du Palais",
+                "discipline": "History",
+                "title": "Консьержери",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3455060276374256,
+                    48.85613491297124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. du Panthéon",
+                "discipline": "Theatre",
+                "title": "Пантеон",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3463816122884844,
+                    48.846352397562846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pl. de l'Hôtel de Ville",
+                "discipline": "Monument",
+                "title": "Отель-де-Виль",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35244568530108,
+                    48.856655524727984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "33 Av. du Maine",
+                "discipline": "Cathedral",
+                "title": "Башня Монпарнас",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3219835853008663,
+                    48.84231087427967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Pont Alexandre III",
+                "discipline": "Monument",
+                "title": "Мост Александра III",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31352681228875,
+                    48.86403005144898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Square de la Tour Saint-Jacques",
+                "discipline": "Monument",
+                "title": "Башня Сен-Жак",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3489286564657204,
+                    48.85821318419437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "8 Av. du Mahatma Gandhi",
+                "discipline": "Cathedral",
+                "title": "Фонд Луи Виттон",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.263845763857446,
+                    48.87664880737359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Paris",
+                "discipline": "Monument",
+                "title": "Мост Пон-Нёф",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3414979297759086,
+                    48.859503234583094,
+                ]
+            }
+        }
+    ]
+}
