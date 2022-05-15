@@ -9,23 +9,33 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController {
+    
+    var tm = TimeMatrices()
+    
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var routeButton: UIButton!
     
+    @IBAction func backButton(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
     // Массив для данных из GEOJSON
     var places: [Places] = []
     
     // Переменные для данных из MenuViewController
+    var timeLimit: Double!
     var startAddress: String!
     var city: String!
     var startCoordinates = CLLocationCoordinate2D()
+    var addTime: Bool!
     
     // Для построения маршрута
     var tour: [Places] = []
+    var sumTime = 0.0
     var timeRoute = Double()
     var timeM: [Double] = []
     //var route: MKRoute!
-    var time = Double()
+    var time: Double?
+    var time1 = Double()
 
     
     override func viewDidLoad() {
@@ -65,7 +75,6 @@ class ViewController: UIViewController {
         mapView.addAnnotation(bB)*/
         
         mapView.showsUserLocation = true
-        
     }
     
     // Метод для преобразования стартового адреса, добавления его в начало массива с достопримечательностями и как начальной точки при загрузке карты
@@ -114,7 +123,7 @@ class ViewController: UIViewController {
     }
     
     // функция для считывания данных из файла geojson в массив places
-    func loadInitialData() {
+   func loadInitialData() {
         var fileName = String()
         switch city {
         case "Смоленск":
@@ -123,8 +132,12 @@ class ViewController: UIViewController {
             fileName = "PlacesMoscow"
         case "Санкт-Петербург":
             fileName = "PlacesStPeterburg"
-        case "Париж":
-            fileName = "PlacesParis"
+        case "Казань":
+            fileName = "PlacesKazan"
+        case "Калининград":
+            fileName = "PlacesKaliningrad"
+        case "Тест":
+            fileName = "Test"
         default:
             fileName = "PlacesSmolensk"
         }
@@ -147,32 +160,8 @@ class ViewController: UIViewController {
     
     // Функция для построения маршрута между двумя точками и расчета времени в пути
     
-    // Попытка 1
-    /*func createDirectionRequest(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D, completion: @escaping (_ timeRoute: Double?, _ error: Error?) ->()) {
-        let startLocation = MKPlacemark(coordinate: startCoordinate)
-        let destinationLocation = MKPlacemark(coordinate: destinationCoordinate)
-        
-        let request = MKDirections.Request()
-        request.source = MKMapItem(placemark: startLocation)
-        request.destination = MKMapItem(placemark: destinationLocation)
-        request.transportType = .walking
-        request.requestsAlternateRoutes = true
-        
-        var timeRoute: Double?
-        
-        let direction = MKDirections(request: request)
-        direction.calculate { response, error in
-            if let route = response?.routes[0] {
-                timeRoute = route.expectedTravelTime/180
-                self.mapView.addOverlay(route.polyline)
-            }
-            completion(timeRoute,error)
-            
-        }
-    }*/
-
-    // Попытка 2
-    /*func createDirectionRequest(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D) {
+    // Попытка с построеним маршрута
+    func createDirectionRequestRoute(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D) {
         let startLocation = MKPlacemark(coordinate: startCoordinate)
         let destinationLocation = MKPlacemark(coordinate: destinationCoordinate)
         
@@ -187,20 +176,22 @@ class ViewController: UIViewController {
         let direction = MKDirections(request: request)
         direction.calculate { response, error in
             if let response = response {
-                self.route = response.routes[0]
+                let route = response.routes[0]
                 //var route = response.routes[0]
                 //time = route.expectedTravelTime/180
                 //print("тайм внутри \(time)")
                 //self.timeM.append(time!)
                 //print("тайм массив внутри \(self.timeM)")
-                self.mapView.addOverlay(self.route.polyline)
+                self.mapView.addOverlay(route.polyline)
             }
         }
         //print("тайм массив снаружи \(self.timeM)")
-    }*/
+    }
     
-    // Попытка 3
-     func createDirectionRequest(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D, completion: @escaping (_ timeRoute: Double?) ->()) {
+
+    
+    // Попытка 3 (последняя работающая)
+    /* func createDirectionRequest(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D, completion: @escaping (_ timeRoute: Double?) ->()) {
         let startLocation = MKPlacemark(coordinate: startCoordinate)
         let destinationLocation = MKPlacemark(coordinate: destinationCoordinate)
         
@@ -220,102 +211,186 @@ class ViewController: UIViewController {
             }
             completion(time)
         }
-    }
-
-    //Функция для постоения матрицы времени
-    /*func createMatrixTime(completion: @escaping (_ matrixRoute: [[Double]]?) ->()) {
-        var matrixRoute = Array(repeating: Array(repeating: 0.0, count: places.count), count: places.count)
-        for (i,row) in matrixRoute.enumerated() {
-            for (j,element) in row.enumerated() {
-                createDirectionRequest(startCoordinate: places[i].coordinate, destinationCoordinate: places[j].coordinate) { timeRoute in
-                    guard let timeRoute = timeRoute else { return }
-                    matrixRoute[i][j] = timeRoute
-                    completion(matrixRoute)
-                }
-            }
-        }
-        //completion(matrixRoute)
     }*/
     
-    //Функция для построения массива
-    func createArrayTime(completion: @escaping (_ timeM: [Double]?) ->()) {
-        print("начало пустой \(self.timeM)")
-        timeM = Array(repeating: 0.0, count: places.count-1)
-        for i in 1...places.count-1 {
-            createDirectionRequest(startCoordinate: places[0].coordinate, destinationCoordinate: places[i].coordinate) { time in
-                guard let time = time else { return }
-                self.timeM[i-1]=time
-                //print("время номер \(i) равен \(time)")
-                //print("время массив \(self.timeM)")
-                completion(self.timeM)
+    // Для заполнения матриц времени
+    func createDirectionRequestTime(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D, completion: @escaping (_ timeRoute: Double?) ->()) {
+        let startLocation = MKPlacemark(coordinate: startCoordinate)
+        let destinationLocation = MKPlacemark(coordinate: destinationCoordinate)
+        
+        let request = MKDirections.Request()
+        request.source = MKMapItem(placemark: startLocation)
+        request.destination = MKMapItem(placemark: destinationLocation)
+        request.transportType = .walking
+        request.requestsAlternateRoutes = true
+        
+        var time: Double?
+        
+        let direction = MKDirections(request: request)
+        direction.calculate { response, error in
+            if let route = response?.routes[0] {
+                let poly = route.polyline
+                print("poly in calc \(poly)")
+                let coords = poly.coordinate
+                print("coords in calc \(coords)")
+                time = route.expectedTravelTime/180
+                //self.mapView.addOverlay(route.polyline)
             }
+            completion(time)
         }
-        //completion(self.timeM)
-        print("массив времени после \(self.timeM)")
     }
+    
+    // Попытка 4 (без completion, скрин в папке)
+   /* func createDirectionRequest(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D) {
+       let startLocation = MKPlacemark(coordinate: startCoordinate)
+       let destinationLocation = MKPlacemark(coordinate: destinationCoordinate)
+       
+       let request = MKDirections.Request()
+       request.source = MKMapItem(placemark: startLocation)
+       request.destination = MKMapItem(placemark: destinationLocation)
+       request.transportType = .walking
+       request.requestsAlternateRoutes = true
+       
+       var time: Double?
+        //var time2 = Double()
+       
+       let direction = MKDirections(request: request)
+       direction.calculate {response, error in
+           if let route = response?.routes[0] {
+               time = route.expectedTravelTime/180
+               print("внутри if \(time)")
+               //time1 = route.expectedTravelTime/180
+               //time2 = route.expectedTravelTime/180
+               //self.mapView.addOverlay(route.polyline)
+               self.mapView.addOverlay(route.polyline)
+           }
+           print("внутри calc \(time)")
+       }
+        print("внутри crDirR \(time)")
+        //return time2
+   }*/
+    
+    // Попытка 5 (без completion c async, действующая)
+    func createDirectionRequest(startCoordinate: CLLocationCoordinate2D, destinationCoordinate: CLLocationCoordinate2D) async throws -> Double {
+       let startLocation = MKPlacemark(coordinate: startCoordinate)
+       let destinationLocation = MKPlacemark(coordinate: destinationCoordinate)
+       
+       let request = MKDirections.Request()
+       request.source = MKMapItem(placemark: startLocation)
+       request.destination = MKMapItem(placemark: destinationLocation)
+       request.transportType = .walking
+       request.requestsAlternateRoutes = true
+       
+       let direction = MKDirections(request: request)
+        let time2 = try await direction.calculate().routes[0].expectedTravelTime/180
+    
+        //print("внутри crDirR \(time2)")
+        return time2
+   }
     
     
     // Функция по построению итогового маршрута
     
-    @objc func routeButtonTapped() {
-        print("Hello")
-        //print("\(startCoordinates)")
+    // Попытка с async, действующая
+   /* @objc func routeButtonTapped() {
         
-        /*timeM = Array(repeating: 0.0, count: places.count-1)
+        async {
+            print("StartA")
+            let places1 = places
+            
+            for i in 0...places1.count-1 {
+                print(places1[i].title!)
+            }
+            //print(places1[0].title,places1[1].title,places1[2].title,places1[3].title,places1[4].title,places1[5].title,places1[6].title,places1[7].title,places1[8].title,places1[9].title)
+            var vertex = places1[0]
+            print("vertex \(vertex.title)")
+            var vj = 0
+            var v = 0
+            var aT = 0.0
+            if addTime == true { aT = 10.0 }
+             tour.append(vertex)
+             while tour.count < places1.count {
+                 var tmp = 1000000.0
+                 for j in 1...places1.count-1 {
+                     let t = try await createDirectionRequest(startCoordinate: places1[v].coordinate, destinationCoordinate: places1[j].coordinate)
+                     print("до \(j) t =  \(t)")
+                     let s = tour.contains(places1[j])
+                     print(s)
+                         if t < tmp, tour.contains(places1[j]) == false {
+                             tmp = t
+                             vj = j
+                         } //if
+                 } //for
+                 if sumTime + tmp + aT <= timeLimit {
+                     print("Вошли")
+                     print("sumTime1 \(sumTime)")
+                     print("tmp \(tmp)")
+                     sumTime = sumTime + tmp + aT
+                     print("sumTime2 \(sumTime)")
+                     v = vj
+                     vertex = places1[vj]
+                     tour.append(vertex)
+                 }
+                 else {
+                     print("Не Вошли")
+                     break
+                     
+                 }
+             } //while
+            for k in 0...tour.count-1 {
+                print(tour[k].title!)
+            }
+            for r in 0...tour.count-2 {
+                createDirectionRequestRoute(startCoordinate: tour[r].coordinate, destinationCoordinate: tour[r+1].coordinate)
+            }
+            //print(tour[0].title,tour[1].title,tour[2].title,tour[3].title,tour[4].title,tour[5].title,tour[6].title,tour[7].title,tour[8].title,tour[9].title)
+    
+            // Проверка, что считает только 50 значений
+            /*let places1 = places
+            for j in 1...places1.count-1 {
+                let t = try await createDirectionRequest(startCoordinate: places1[0].coordinate, destinationCoordinate: places1[j].coordinate)
+                print("до \(j) t =  \(t)")
+                timeM.append(t)
+                print(timeM)
+            }*/
+            
+            /*let a = CLLocationCoordinate2D(latitude: 54.78858495164944, longitude:  32.05470512883579)
+            let b = CLLocationCoordinate2D(latitude: 54.779619164622865, longitude:  32.04564361534319)
+            let t = try await createDirectionRequest(startCoordinate: a, destinationCoordinate: b)*/
+            
+            //Построение маршрута по порядку places
+            /*for r in 0...places.count-2 {
+                createDirectionRequestRoute(startCoordinate: places[r].coordinate, destinationCoordinate: places[r+1].coordinate)
+            }*/
+               
+            print("FinishA")
+        }
+    }*/
+    
+    
+    //Для заполнения матриц времени
+    @objc func routeButtonTapped() {
         for i in 1...places.count-1 {
-            createDirectionRequest(startCoordinate: places[0].coordinate, destinationCoordinate: places[i].coordinate) { time in
+            createDirectionRequestTime(startCoordinate: places[2].coordinate, destinationCoordinate: places[i].coordinate) { [self] time in
                 guard let time = time else { return }
-                self.timeM[i-1]=time
-                print("тайм номер \(i) равен \(time)")
-                print("тайм массив \(self.timeM)")
+                tm.PlacesSmolensk[1][i-1]=time
+                print("время номер \(i) равен \(time)")
+                print("время массив \(tm.PlacesSmolensk)")
+                //completion(self.timeM)
             }
         }
-        //print("тайм внутри \(time)")
-        print("тайм массив после \(self.timeM)")*/
-        createArrayTime { time in
-            guard let time = time else {return}
-            print("массив времени внутри кнопки \(time)")
-        }
-
+        //completion(self.timeM)
+        //print("массив времени после \(self.timeM)")
     }
     
-    // Попытка 2
-    /*@objc func routeButtonTapped() {
-       print("Hello")
-            createDirectionRequest(startCoordinate: places[0].coordinate, destinationCoordinate: places[1].coordinate) { time in
-                guard let time = time else { return }
-                self.timeRoute = time
-                print("внутри \(self.timeRoute) мин")
-            }
-        print("снаружи \(self.timeRoute) мин")
-        /*createMatrixTime { matrixRoute in
-            guard let matrixRoute = matrixRoute else { return }
-            print(matrixRoute[0][1])
-        }*/
-
+    // Для отрисовки маршрута
+   /* @objc func routeButtonTapped() {
+        //var route = MKRoute()
+        var route1 = [MKRoute](0x600003976ea0)
+        //mapView.addOverlay(route1.polyline)
+        //self.mapView.addOverlay(route.polyline)
     }*/
     
-    
-    // Попытка 3
-    /* @objc func routeButtonTapped() {
-        print("Hello")
-        //var sumTime = 0.0
-        //var time = Double()
-         //print(Thread.current)
-                 createDirectionRequest(startCoordinate: places[0].coordinate, destinationCoordinate: places[1].coordinate) { [weak self] timeRoute in
-                     //print(Thread.current)
-                     guard let self = self else { return }
-                     guard let timeRoute = timeRoute else {
-                         return
-                     }
-
-                     self.time = timeRoute
-                     print("time route 01 \(timeRoute)")
-                     print("time 01 \(self.time)")
-                 }
-        
-         print("от 0 до 1 \(time)")
-    }*/
     
     
 }
@@ -334,7 +409,7 @@ extension ViewController: MKMapViewDelegate {
     // метод для отображения линии маршрута
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         let renderer = MKPolylineRenderer(overlay: overlay as! MKPolyline)
-        renderer.strokeColor = .red
+        renderer.strokeColor = .init(red: 2/255.0, green: 62/255.0, blue: 138/255.0, alpha: 1.0)
         renderer.lineWidth = 3
         return renderer
     }
@@ -388,3 +463,60 @@ extension ViewController: MKMapViewDelegate {
         //mapView.addOverlay(self.route.polyline) */
     }*/
 
+//Функция для постоения матрицы времени
+/*func createMatrixTime(completion: @escaping (_ matrixRoute: [[Double]]?) ->()) {
+    var matrixRoute = Array(repeating: Array(repeating: 0.0, count: places.count), count: places.count)
+    for (i,row) in matrixRoute.enumerated() {
+        for (j,element) in row.enumerated() {
+            createDirectionRequest(startCoordinate: places[i].coordinate, destinationCoordinate: places[j].coordinate) { timeRoute in
+                guard let timeRoute = timeRoute else { return }
+                matrixRoute[i][j] = timeRoute
+                completion(matrixRoute)
+            }
+        }
+    }
+    //completion(matrixRoute)
+}*/
+
+//Функция для построения массива
+/*func createArrayTime(completion: @escaping (_ timeM: [Double]?) ->()) {
+    print("начало пустой \(self.timeM)")
+    timeM = Array(repeating: 0.0, count: places.count-1)
+    for i in 1...places.count-1 {
+        createDirectionRequest(startCoordinate: places[0].coordinate, destinationCoordinate: places[i].coordinate) { time in
+            guard let time = time else { return }
+            self.timeM[i-1]=time
+            //print("время номер \(i) равен \(time)")
+            //print("время массив \(self.timeM)")
+            completion(self.timeM)
+        }
+    }
+    //completion(self.timeM)
+    print("массив времени после \(self.timeM)")
+}*/
+
+//Алгоритм
+/*let places1 = places
+print(places1[0].title,places1[1].title,places1[2].title,places1[3].title,places1[4].title,places1[5].title,places1[6].title,places1[7].title,places1[8].title,places1[9].title)
+var vertex = places1[0]
+print("vertex \(vertex.title)")
+ var vj = 0
+ var v = 0
+ tour.append(vertex)
+ while tour.count < places1.count {
+     var tmp = 1000000.0
+     for j in 1...places1.count-1 {
+         let t = try await createDirectionRequest(startCoordinate: places1[v].coordinate, destinationCoordinate: places1[j].coordinate)
+         print("до \(j) t =  \(t)")
+         let s = tour.contains(places1[j])
+         print(s)
+             if t < tmp, s == false {
+                 tmp = t
+                 vj = j
+             } //if
+     } //for
+     v = vj
+     vertex = places1[vj]
+     tour.append(vertex)
+ } //while
+ print(tour[0].title,tour[1].title,tour[2].title,tour[3].title,tour[4].title,tour[5].title,tour[6].title,tour[7].title,tour[8].title,tour[9].title) */

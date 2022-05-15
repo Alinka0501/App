@@ -4,23 +4,8 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "Разводная ул., 2",
-                "discipline": "Cathedral",
-                "title": "Дворцово-парковый ансамбль \"Петергоф\"",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.908595473299464,
-                    59.88646560623899
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "locationName": "Садовая ул., 7",
-                "discipline": "History",
+                "discipline": "Architecture",
                 "title": "Екатерининский дворец",
             },
             "geometry": {
@@ -35,7 +20,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Дворцовая пл., 2",
-                "discipline": "History",
+                "discipline": "Museum",
                 "title": "Государственный Эрмитаж",
             },
             "geometry": {
@@ -50,7 +35,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Дворцовая пл.",
-                "discipline": "Theatre",
+                "discipline": "Place",
                 "title": "Дворцовая площадь",
             },
             "geometry": {
@@ -65,7 +50,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Санкт-Петербург",
-                "discipline": "Monument",
+                "discipline": "History",
                 "title": "Петропавловская крепость",
             },
             "geometry": {
@@ -80,7 +65,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Невский пр., 85",
-                "discipline": "Cathedral",
+                "discipline": "Monument",
                 "title": "Обелиск городу-Герою Ленинграду",
             },
             "geometry": {
@@ -95,7 +80,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "наб. Лебяжьей канавки",
-                "discipline": "Monument",
+                "discipline": "Place",
                 "title": "Летний сад",
             },
             "geometry": {
@@ -125,7 +110,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Петроградская наб.",
-                "discipline": "History",
+                "discipline": "Museum",
                 "title": "Крейсер Аврора",
             },
             "geometry": {
@@ -139,38 +124,8 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "Биржевая пл.",
-                "discipline": "Monument",
-                "title": "Стрелка Васильевского острова",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.307022142862333,
-                    59.94419409077373
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "locationName": "ул. Профессора Попова, 2",
-                "discipline": "Cathedral",
-                "title": "Ботанический сад Петра Великого",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.32595997996566,
-                    59.969636399394176
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "locationName": "ул. Смольного, 1/3",
-                "discipline": "History",
+                "discipline": "Cathedral",
                 "title": "Смольный Монастырь",
             },
             "geometry": {
@@ -185,7 +140,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Московская пл.",
-                "discipline": "History",
+                "discipline": "Place",
                 "title": "Московская площадь",
             },
             "geometry": {
@@ -200,7 +155,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Дворцовый м.",
-                "discipline": "Theatre",
+                "discipline": "Bridge",
                 "title": "Дворцовый мост",
             },
             "geometry": {
@@ -215,7 +170,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Футбольная ал., 1",
-                "discipline": "Monument",
+                "discipline": "Stadium",
                 "title": "Стадион \"Газпром Арена\"",
             },
             "geometry": {
@@ -229,98 +184,8 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "Елагин остров, 4",
-                "discipline": "Cathedral",
-                "title": "Центральный парк культуры и отдыха им. С. М. Кирова",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.257713257651925,
-                    59.97928637926963
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "locationName": "Крестовский пр.",
-                "discipline": "Monument",
-                "title": "Приморский парк Победы",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.248864711093987,
-                    59.96994127446582
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "locationName": "Потёмкинская ул.",
-                "discipline": "Place",
-                "title": "Таврический сад",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.37167636205885,
-                    59.94532776126048
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "locationName": "Кузнецовская ул., 25",
-                "discipline": "History",
-                "title": "Московский парк Победы",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.328750637924447,
-                    59.86860024116233
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "locationName": "Приморский пр., 74",
-                "discipline": "Monument",
-                "title": "Парк 300-летия Санкт-Петербурга",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.1942782436278,
-                    59.98383125742014
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "locationName": "парк Александровский, 7",
-                "discipline": "Cathedral",
-                "title": "Александровский парк",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.32020894096087,
-                    59.9551126285721
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "locationName": "Университетская наб., 3",
-                "discipline": "History",
+                "discipline": "Museum",
                 "title": "Кунсткамера",
             },
             "geometry": {
@@ -335,7 +200,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Инженерная ул., 4",
-                "discipline": "History",
+                "discipline": "Museum",
                 "title": "Государственный Русский музей",
             },
             "geometry": {
@@ -350,7 +215,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "29 лин. Васильевского острова, 2",
-                "discipline": "Theatre",
+                "discipline": "Museum",
                 "title": "Музей Эрарта",
             },
             "geometry": {
@@ -365,7 +230,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "парк Александровский, 7",
-                "discipline": "Monument",
+                "discipline": "Museum",
                 "title": "Военно-исторический музей артиллерии, инженерных войск и войск связи",
             },
             "geometry": {
@@ -380,7 +245,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Большая Морская ул., 69А",
-                "discipline": "Cathedral",
+                "discipline": "Museum",
                 "title": "Центральный военно-морской музей",
             },
             "geometry": {
@@ -395,7 +260,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "набережная реки Фонтанки, 21",
-                "discipline": "Monument",
+                "discipline": "Museum",
                 "title": "Музей Фаберже",
             },
             "geometry": {
@@ -409,23 +274,8 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "ул. Блохина, 15",
-                "discipline": "Place",
-                "title": "Клуб-музей \"Котельная Камчатка\"",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    30.30085489943505,
-                    59.9519847866622
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "locationName": "Петровская наб.",
-                "discipline": "History",
+                "discipline": "Museum",
                 "title": "Домик Петра I",
             },
             "geometry": {
@@ -440,7 +290,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Театральная пл., 1",
-                "discipline": "Monument",
+                "discipline": "Theatre",
                 "title": "Мариинский театр",
             },
             "geometry": {
@@ -455,7 +305,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "пл. Островского, 6",
-                "discipline": "Monument",
+                "discipline": "Theatre",
                 "title": "Александринский театр",
             },
             "geometry": {
@@ -470,7 +320,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "набережная реки Фонтанки, 65",
-                "discipline": "Monument",
+                "discipline": "Theatre",
                 "title": "Большой драматический театр имени Г. А. Товстоногова",
             },
             "geometry": {
@@ -485,7 +335,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Исаакиевская пл., 4",
-                "discipline": "Monument",
+                "discipline": "Cathedral",
                 "title": "Исаакиевский собор",
             },
             "geometry": {
@@ -500,7 +350,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "наб. канала Грибоедова, 2Б",
-                "discipline": "Monument",
+                "discipline": "Cathedral",
                 "title": "Храм Спаса на Крови",
             },
             "geometry": {
@@ -515,7 +365,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Казанская пл. 2",
-                "discipline": "Monument",
+                "discipline": "Cathedral",
                 "title": "Казанский Собор",
             },
             "geometry": {
@@ -545,7 +395,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Петропавловская крепость",
-                "discipline": "History",
+                "discipline": "Cathedral",
                 "title": "Петропавловский собор",
             },
             "geometry": {
@@ -560,7 +410,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Сенатская пл.",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник \"Медный всадник\"",
             },
             "geometry": {
@@ -575,7 +425,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "пл. Островского, 1",
-                "discipline": "Theatre",
+                "discipline": "Monument",
                 "title": "Памятник Екатерине II",
             },
             "geometry": {
@@ -605,7 +455,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "пл. Стачек, 1",
-                "discipline": "Cathedral",
+                "discipline": "Architecture",
                 "title": "Нарвские Триумфальные Ворота",
             },
             "geometry": {
@@ -635,7 +485,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "набережная реки Фонтанки, 2",
-                "discipline": "Place",
+                "discipline": "Monument",
                 "title": "Чижик-пыжик",
             },
             "geometry": {
@@ -650,7 +500,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "пл. Искусств",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник А.С. Пушкину",
             },
             "geometry": {
@@ -680,7 +530,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Воскресенская наб.",
-                "discipline": "Cathedral",
+                "discipline": "Monument",
                 "title": "Памятник кораблю \"Полтава\"",
             },
             "geometry": {
@@ -695,7 +545,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Невский пр., 28",
-                "discipline": "History",
+                "discipline": "Architecture",
                 "title": "Дом книги",
             },
             "geometry": {
@@ -725,7 +575,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Адмиралтейский пр. 1",
-                "discipline": "Theatre",
+                "discipline": "Architecture",
                 "title": "Главное адмиралтейство",
             },
             "geometry": {
@@ -740,7 +590,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Загородный просп., 11",
-                "discipline": "Monument",
+                "discipline": "Place",
                 "title": "Пять углов",
             },
             "geometry": {
@@ -755,7 +605,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Высотная улица, 1",
-                "discipline": "Cathedral",
+                "discipline": "Architecture",
                 "title": "Деловой комплекс \"Лахта Центр\"",
             },
             "geometry": {
@@ -770,7 +620,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Невский пр., 41",
-                "discipline": "Monument",
+                "discipline": "Architecture",
                 "title": "Дворец Белосельских-Белозерских",
             },
             "geometry": {
@@ -785,7 +635,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Миллионная ул., 5/1",
-                "discipline": "Cathedral",
+                "discipline": "Architecture",
                 "title": "Мраморный дворец",
             },
             "geometry": {
@@ -800,7 +650,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Садовая ул., 2",
-                "discipline": "History",
+                "discipline": "Architecture",
                 "title": "Михайловский замок",
             },
             "geometry": {
@@ -830,7 +680,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "наб. канала Грибоедова",
-                "discipline": "Theatre",
+                "discipline": "Bridge",
                 "title": "Банковский мост",
             },
             "geometry": {
@@ -845,7 +695,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Львиный пер.",
-                "discipline": "Monument",
+                "discipline": "Bridge",
                 "title": "Львиный Мост",
             },
             "geometry": {
@@ -860,7 +710,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Невский пр.",
-                "discipline": "Cathedral",
+                "discipline": "Bridge",
                 "title": "Аничков мост",
             },
             "geometry": {
@@ -875,7 +725,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "набережная реки Фонтанки, 3, лит.А",
-                "discipline": "Monument",
+                "discipline": "Circus",
                 "title": "Большой Санкт-Петербургский государственный цирк",
             },
             "geometry": {
@@ -890,7 +740,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "наб. реки Монастырки, 1",
-                "discipline": "Place",
+                "discipline": "Cathedral",
                 "title": "Свято-Троицкая Александро-Невская лавра",
             },
             "geometry": {
@@ -905,7 +755,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "наб. Pеки Карповки, 45",
-                "discipline": "History",
+                "discipline": "Cathedral",
                 "title": "Иоанновский женский монастырь",
             },
             "geometry": {
@@ -920,7 +770,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Московский пр-т., 100",
-                "discipline": "History",
+                "discipline": "Cathedral",
                 "title": "Воскресенский Новодевичий Монастырь",
             },
             "geometry": {

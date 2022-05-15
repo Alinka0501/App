@@ -1,0 +1,156 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Соборная Гора, 5",
+                "discipline": "Cathedral",
+                "title": "Свято-Успенский кафедральный собор",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.05470512883579,
+                    54.78858495164944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Коммунистическая, 6А",
+                "discipline": "History",
+                "title": "Вечный огонь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.04564361534319,
+                    54.779619164622865
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Промышленный р-н",
+                "discipline": "History",
+                "title": "Башня Орёл",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.065378613492605,
+                    54.78664744907676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Ленина, 4",
+                "discipline": "Theatre",
+                "title": "Драматический театр им. А.С.Грибоедова",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.04664294232841,
+                    54.78335183622619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Ленина",
+                "discipline": "Monument",
+                "title": "Памятник В.И.Ленину",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.045325042328415,
+                    54.78302435402444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Урицкого, 10",
+                "discipline": "Cathedral",
+                "title": "Римско-католический костёл",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.053324273014766,
+                    54.77362718266798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Ленинский р-н",
+                "discipline": "Monument",
+                "title": "Памятник А.Т.Твардовскому и Василию Тёркину",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.05062878650739,
+                    54.77937668938674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "вдоль ул. Большая Краснофлотская",
+                "discipline": "Place",
+                "title": "Набережная Днепра",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.0475734576716,
+                    54.79090374628246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Октябрьской Революции, 3",
+                "discipline": "History",
+                "title": "Громовая башня",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.04397030185058,
+                    54.780095062480775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Тенишевой, 1",
+                "discipline": "Monument",
+                "title": "Памятник защитникам Смоленска",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.052065171164195,
+                    54.778334416542165
+                ]
+            }
+        }
+        
+    ]
+}

@@ -1,0 +1,860 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Лесная, 7, Рыбачий",
+                "discipline": "Place",
+                "title": "Национальный парк \"Куршская коса\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.838270460947125,
+                    55.15653117584348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Октябрьская, 6А",
+                "discipline": "Place",
+                "title": "Рыбная деревня",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.51583193253693,
+                    54.70299159785146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Калинина, 117",
+                "discipline": "Architecture",
+                "title": "Дом Советов",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.520135310847103,
+                    54.69592109681904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Place",
+                "title": "Исторический район Амалиенау",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.46766323023882,
+                    54.71689754761101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "наб. Петра Великого, 1",
+                "discipline": "Museum",
+                "title": "Музей Мирового океана",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.500457295890886,
+                    54.706544787539514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Канта, 1",
+                "discipline": "Cathedral",
+                "title": "Кенигсбергский Кафедральный собор",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.512012209491758,
+                    54.70626176648516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т Победы, 1",
+                "discipline": "Place",
+                "title": "Центральный парк культуры и отдыха",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.477273630781355,
+                    54.71898968540816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Победы, 2",
+                "discipline": "Cathedral",
+                "title": "Кафедральный собор Христа Спасителя",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.502054428764815,
+                    54.720612230188785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Портовая, 24",
+                "discipline": "Place",
+                "title": "Калининградский морской торговый порт",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.47571926333155,
+                    54.69862291610926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Булатова",
+                "discipline": "Museum",
+                "title": "Форт № 5 \"Король Фридрих Вильгельм III\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.442893328835797,
+                    54.752623500000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Гвардейский",
+                "discipline": "Monument",
+                "title": "Памятник 1200 гвардейцам",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.4902086547033,
+                    54.71118202629087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Канта",
+                "discipline": "Monument",
+                "title": "Могила Иммануила Канта",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.512849869726534,
+                    54.706468944770165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Ленинский пр-т., 83",
+                "discipline": "Architecture",
+                "title": "Здание Кёнигсбергской торговой биржи",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.507137217315954,
+                    54.70501107757087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Пролетарская, 2",
+                "discipline": "History",
+                "title": "Башня Врангеля",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.514323526701666,
+                    54.72261675962042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Солнечный бул, 25",
+                "discipline": "Stadium",
+                "title": "Стадион Калининград",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.533652740970147,
+                    54.69823220915181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Победы",
+                "discipline": "Place",
+                "title": "Площадь Победы",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.501754088173065,
+                    54.720136436740546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Bridge",
+                "title": "Эсатакадный Мост",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.5071825,
+                    54.707073602684844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Тенистая ал., 39А",
+                "discipline": "Cathedral",
+                "title": "Кирха Юдиттен",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.425367203260823,
+                    54.715721620878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т Победы, 41",
+                "discipline": "Cathedral",
+                "title": "Капелла Святого Адальберта",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.465280361835426,
+                    54.714859223073425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т Победы, 1",
+                "discipline": "Cathedral",
+                "title": "Кирха королевы Луизы",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.475494105847492,
+                    54.719467800579594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Богдана Хмельницкого, 63а",
+                "discipline": "Cathedral",
+                "title": "Кирха Святого семейства",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.509735393574996,
+                    54.69771050027493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Генерала Павлова, 2",
+                "discipline": "Cathedral",
+                "title": "Крестовоздвиженский собор",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.522971566185877,
+                    54.705765222716074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Дзержинского, 30",
+                "discipline": "Museum",
+                "title": "Фридландские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.52196129954625,
+                    54.695435911895146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Багратиона, 137",
+                "discipline": "Architecture",
+                "title": "Бранденбургские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.49465411166391,
+                    54.69727006340176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Фрунзе, 112",
+                "discipline": "Architecture",
+                "title": "Королевские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.536041352650262,
+                    54.71364268325302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Литовский Вал, 63",
+                "discipline": "Architecture",
+                "title": "Закхаймские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.538140459722296,
+                    54.70959437580734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Architecture",
+                "title": "Россгартенские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.523820981118877,
+                    54.72204989139201
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Architecture",
+                "title": "Фридрихсбургские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.493519071640932,
+                    54.70435002516283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Гвардейский",
+                "discipline": "Architecture",
+                "title": "Аусфальские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.490656226509753,
+                    54.71232661174376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул, пр-т. Гвардейский, 51 а",
+                "discipline": "Architecture",
+                "title": "Железнодорожные ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.490644741302173,
+                    54.710281154268344
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Береговая, 45",
+                "discipline": "Place",
+                "title": "Верхний пруд",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.529168294303894,
+                    54.73168305155974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Тельмана, 3",
+                "discipline": "Place",
+                "title": "Парк культуры и отдыха \"Юность\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.514758495213986,
+                    54.72675508711684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Place",
+                "title": "Пруд Поплавок",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.461700857081368,
+                    54.72147377095582
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Маршала Василевского, 1",
+                "discipline": "Museum",
+                "title": "Музей янтаря",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.52304780808275,
+                    54.72218525279559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Университетская, 2А",
+                "discipline": "Museum",
+                "title": "Музей \"Бункер\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.509507348367972,
+                    54.71330541458723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Клиническая, 21",
+                "discipline": "Museum",
+                "title": "Калининградский областной историко-художественный музей",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.518196740273265,
+                    54.713874613298955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Мира, 4",
+                "discipline": "Theatre",
+                "title": "Калининградский областной драматический театр",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.493050970204685,
+                    54.71945921967964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Мира, 3",
+                "discipline": "Monument",
+                "title": "Борющиеся зубры",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.497006592855936,
+                    54.72034637631064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Университетская, 2",
+                "discipline": "Monument",
+                "title": "Памятник И. Канту",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.51045577225449,
+                    54.71387689691974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Monument",
+                "title": "Памятник Фридриху Шиллеру",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.493958289029514,
+                    54.71955720053162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "наб. Петра Великого, 1",
+                "discipline": "Monument",
+                "title": "Фонтан Путти",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.49779576331893,
+                    54.70676039771281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Рыбачий",
+                "discipline": "Place",
+                "title": "Танцующий лес",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.86078232883558,
+                    55.179640673778174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пос, Центральный пер., 7, Орловка",
+                "discipline": "Architecture",
+                "title": "Рыцарский замок Нессельбек",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.533900057671143,
+                    54.793291983822854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Клавы Назаровой, 24",
+                "discipline": "Cathedral",
+                "title": "Кирха предместья Розенау",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.509735393574996,
+                    54.69771050027493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Ленинский, 83",
+                "discipline": "Museum",
+                "title": "Калининградский областной музей изобразительных искусств",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.50679685822128,
+                    54.70514779165322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Литовский Вал, 38",
+                "discipline": "History",
+                "title": "Оборонительная казарма \"Кронпринц\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.531290769544523,
+                    54.716994941325595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Литовский Вал, 21",
+                "discipline": "History",
+                "title": "Бастион \"Грольман\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.533086157671143,
+                    54.71760899704869
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "наб. Петра Великого, 1",
+                "discipline": "Museum",
+                "title": "Подводная лодка \"Б-413\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.494564409548204,
+                    54.70681758134982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "наб. Петра Великого, 1",
+                "discipline": "Museum",
+                "title": "Научно-исследовательское судно \"Витязь\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.499970839324003,
+                    54.70648228226781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Энергетиков",
+                "discipline": "Museum",
+                "title": "Форт Дёнхофф",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.567715157671152,
+                    54.65673440635036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Октябрьская, 2А",
+                "discipline": "Viewpoint",
+                "title": "Видовая башня Маяк",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.514559099573635,
+                    54.705112433103125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Большое Исаково",
+                "discipline": "History",
+                "title": "Форт № 1 \"Штайн\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.604579428835574,
+                    54.70620079758573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининградская обл.",
+                "discipline": "History",
+                "title": "Форт № 2 \"Бронзарт\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.60096345767115,
+                    54.748909899999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т Победы, 1",
+                "discipline": "Monument",
+                "title": "Памятник барону Мюнхаузену",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.4763216,
+                    54.718783503131796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Генерал-фельдмаршала Румянцева, 3 А",
+                "discipline": "History",
+                "title": "Редюит бастиона \"Астрономический\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.49073118055934,
+                    54.71348370500026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Калининград",
+                "discipline": "Monument",
+                "title": "Памятник Родина-Мать",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.50155720064018,
+                    54.71724932749621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Победы, 2",
+                "discipline": "Cathedral",
+                "title": "Кафедральный собор Христа Спасителя",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.502054428764815,
+                    54.720612230188785
+                ]
+            }
+        }
+    ]
+}

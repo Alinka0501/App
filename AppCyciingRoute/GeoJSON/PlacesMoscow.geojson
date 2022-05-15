@@ -19,8 +19,23 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "Красная пл., 3",
+                "locationName": "Красная пл.",
                 "discipline": "History",
+                "title": "Московский Кремль",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61751535744031,
+                    55.75203043293732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Красная пл., 3",
+                "discipline": "Shop",
                 "title": "ГУМ",
             },
             "geometry": {
@@ -28,6 +43,66 @@
                 "coordinates": [
                     37.62154273683349,
                     55.754805236350485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Никольская, 3",
+                "discipline": "Cathedral",
+                "title": "Собор Казанской иконы Божией Матери",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.619264854696034,
+                    55.755437746353685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр. Воскресенские Ворота, 1А",
+                "discipline": "History",
+                "title": "Воскресенские ворота",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.6180267047388,
+                    55.75563343887601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр. Воскресенские Ворота, 2",
+                "discipline": "Museum",
+                "title": "Государственный исторический музей",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61784739891305,
+                    55.75534907409249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Красная пл.",
+                "discipline": "History",
+                "title": "Мавзолей В.И. Ленина",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61990595658378,
+                    55.75370866172109
                 ]
             }
         },
@@ -49,8 +124,23 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "улица Варварка домовладение 6",
-                "discipline": "Theatre",
+                "locationName": "Никольская ул.",
+                "discipline": "Place",
+                "title": "Никольская улица",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.621302086133475,
+                    55.75631191612587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "улица Варварка, 6",
+                "discipline": "Place",
                 "title": "Парк Зарядье",
             },
             "geometry": {
@@ -64,15 +154,45 @@
         {
             "type": "Feature",
             "properties": {
+                "locationName": "Петровка ул., 2",
+                "discipline": "Shop",
+                "title": "ЦУМ",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61978534514057,
+                    55.76070274712899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "locationName": "Театральная пл., 1",
-                "discipline": "Monument",
+                "discipline": "Theatre",
                 "title": "Большой театр",
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    37.61915285528237,
-                    55.76008520658521
+                    37.619115019660406,
+                    55.75996020751943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Тверская ул., 13",
+                "discipline": "Architecture",
+                "title": "Мэрия Москвы",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.6089425762098,
+                    55.76138762859229
                 ]
             }
         },
@@ -80,7 +200,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Большой Патриарший пер., 7",
-                "discipline": "Cathedral",
+                "discipline": "Place",
                 "title": "Патриаршие пруды",
             },
             "geometry": {
@@ -88,6 +208,51 @@
                 "coordinates": [
                     37.59274835767159,
                     55.763583831443825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Воздвиженка, 3/5, строение 1",
+                "discipline": "Architecture",
+                "title": "Дом Пашкова",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.60835695767115,
+                    55.74972066171552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Воздвиженка, 3/5",
+                "discipline": "Architecture",
+                "title": "Библиотека им. Ленина",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.608954530684585,
+                    55.751908973009975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Мосфильмовская ул., 1",
+                "discipline": "Studio",
+                "title": "Киностудия \"Мосфильм\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.53259022883558,
+                    55.72248965750138
                 ]
             }
         },
@@ -109,6 +274,186 @@
         {
             "type": "Feature",
             "properties": {
+                "locationName": "ул. Волхонка, 12",
+                "discipline": "Museum",
+                "title": "Государственный музей изобразительных искусств имени А.С. Пушкина",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.60512322883558,
+                    55.74730539999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Новодевичий пр-д, 1",
+                "discipline": "Cathedral",
+                "title": "Новодевичий Монастырь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.5563998,
+                    55.72619395807455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Косыгина, 28",
+                "discipline": "Place",
+                "title": "Воробьевы Горы",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.542344857671154,
+                    55.7094210554794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Лужники, 24",
+                "discipline": "Stadium",
+                "title": "Стадион Лужники",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.553726428835574,
+                    55.71576199999998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Воробьевы Горы ул.",
+                "discipline": "Architecture",
+                "title": "МГУ имени М.В.Ломоносова",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.53075622883557,
+                    55.703050454493884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Котельническая наб., 1/15",
+                "discipline": "Architecture",
+                "title": "Жилой дом на Котельнической набережной",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.642788728835576,
+                    55.74722803867119
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Смоленский б-р, 32/34",
+                "discipline": "Architecture",
+                "title": "Министерство иностранных дел России",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.584267028726046,
+                    55.74600862227088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Кудринская пл., 1",
+                "discipline": "Architecture",
+                "title": "Жилой дом на Кудринской площади",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.58057745662979,
+                    55.758876906772834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Садовая-Спасская ул., 21/1",
+                "discipline": "Architecture",
+                "title": "Административно-жилое здание возле \"Красных ворот\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.650156456640794,
+                    55.76973298050191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Кутузовский просп., 2/1 строение 1",
+                "discipline": "Architecture",
+                "title": "Гостиница \"Украина\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.56504922779097,
+                    55.75130668049839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Каланчевская ул., 21/40",
+                "discipline": "Architecture",
+                "title": "Гостиница \"Ленинградская\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.65133359911548,
+                    55.77398769265143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Лаврушинский пер., 10",
+                "discipline": "Museum",
+                "title": "Государственная Третьяковская галерея",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.62090943866681,
+                    55.74140328091501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "locationName": "пр-т Мира, 119",
                 "discipline": "Place",
                 "title": "ВДНХ",
@@ -124,8 +469,39 @@
         {
             "type": "Feature",
             "properties": {
+                "locationName": "пр-т Мира, 26, строение 1",
+                "discipline": "Place",
+                "title": "Ботанический сад МГУ \"Аптекарский огород\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.63483572780694,
+                    55.77827594824283
+                ]
+            }
+        },
+        {
+        
+            "type": "Feature",
+            "properties": {
+                "locationName": "просп. Маршала Жукова, 76",
+                "discipline": "Bridge",
+                "title": "Живописный Мост",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.44312382782688,
+                    55.77621017794854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "locationName": "ул. Академика Королева, 15",
-                "discipline": "History",
+                "discipline": "Architecture",
                 "title": "Останкинская телебашня",
             },
             "geometry": {
@@ -139,8 +515,173 @@
         {
             "type": "Feature",
             "properties": {
+                "locationName": "Крутицкая ул., 8",
+                "discipline": "Architecture",
+                "title": "Крутицкое патриаршее подворье",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.65842685663752,
+                    55.728157038864886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Измайловское ш., 73",
+                "discipline": "Architecture",
+                "title": "Измайловский кремль",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.750449885467134,
+                    55.79428931774065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Ленинградский пр-т., 40",
+                "discipline": "Architecture",
+                "title": "Петровский Путевой Дворец",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.55227435664075,
+                    55.79349674900836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Дольская ул., 1",
+                "discipline": "Museum",
+                "title": "Музей-Заповедник Царицыно",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.686170055831646,
+                    55.61171161903779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Юности, 2",
+                "discipline": "Museum",
+                "title": "Музей-Заповедник \"Кусково\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.80763638990167,
+                    55.7352775688535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Малая Грузинская ул., 27/13",
+                "discipline": "Cathedral",
+                "title": "Римско-католический Кафедральный Собор Непорочного Зачатия Пресвятой Девы Марии",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.57184262726939,
+                    55.7671798025996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Москва",
+                "discipline": "Place",
+                "title": "Поклонная гора",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.50628335735912,
+                    55.73139737329514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Филипповский пер.",
+                "discipline": "Place",
+                "title": "Старый Арбат",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.59844893151324,
+                    55.7496033421982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Крымский Вал",
+                "discipline": "Place",
+                "title": "Парк Горького",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.601269126482826,
+                    55.72947229116802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Садовая-Кудринская ул., 5 стр.1",
+                "discipline": "Museum",
+                "title": "Московский Планетарий",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.58364127013476,
+                    55.76143494403035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Кутузовский просп.",
+                "discipline": "Architecture",
+                "title": "Триумфальная арка",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.51995343554193,
+                    55.73677234639798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "locationName": "Пресненская наб., 8",
-                "discipline": "Monument",
+                "discipline": "Architecture",
                 "title": "Москва-сити",
             },
             "geometry": {
@@ -148,6 +689,306 @@
                 "coordinates": [
                     37.53914534232841,
                     55.74731201864329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Кремлёвская наб., 1, стр.3",
+                "discipline": "Museum",
+                "title": "Оружейная палата",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61342698797573,
+                    55.74956945825691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Кремлёвская наб., 1, стр.12",
+                "discipline": "Cathedral",
+                "title": "Собор Успения Пресвятой Богородицы в Московском Кремле",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61698213782704,
+                    55.75098093107199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Красная Площадь",
+                "discipline": "Monument",
+                "title": "Памятник Минину и Пожарскому",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.622735652730306,
+                    55.752828538600625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Камергерский пер., 3",
+                "discipline": "Theatre",
+                "title": "Московский художественный театр им. А.П.Чехова",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61331431544028,
+                    55.75991225723619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Манежная пл.",
+                "discipline": "Place ",
+                "title": "Манежная площадь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61464367333673,
+                    55.75574462574488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Москва",
+                "discipline": "Museum",
+                "title": "Музей-Заповедник Коломенское",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.669209072756026,
+                    55.6700138873146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Цветной б-р, 13",
+                "discipline": "Circus",
+                "title": "Московский Цирк Никулина на Цветном бульваре",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.620375614298695,
+                    55.77055203492637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Ивановская пл.",
+                "discipline": "Monument",
+                "title": "Царь-пушка",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61787693694934,
+                    55.751434983678834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Ивановская пл.",
+                "discipline": "Monument",
+                "title": "Царь-колокол",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61847475113278,
+                    55.750814932180816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Крымская наб., 10",
+                "discipline": "Monument",
+                "title": "Памятник Петру I",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.608355231662394,
+                    55.738571913112686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "5-й Котельнический пер., д.11",
+                "discipline": "Museum",
+                "title": "Бункер-42 на Таганке",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.64902503039412,
+                    55.74171471140881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Б. Грузинская ул., 1",
+                "discipline": "Place",
+                "title": "Московский зоопарк",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.57660218712587,
+                    55.76323282288064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Крымский Вал, 2",
+                "discipline": "Place",
+                "title": "Парк искусств Музеон",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.6068066920942,
+                    55.734059076746824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Таганская ул., 58",
+                "discipline": "Cathedral",
+                "title": "Покровский ставропигиальный женский монастырь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.670707878040545,
+                    55.738226826745446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Донская, 1-3",
+                "discipline": "Cathedral",
+                "title": "Донской монастырь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.60183882008753,
+                    55.71470383067375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Большая Лубянка, 19",
+                "discipline": "Cathedral",
+                "title": "Сретенский Мужской Монастырь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.63036193419091,
+                    55.765699411609816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Москворецкая наб.",
+                "discipline": "Viewpoint",
+                "title": "Парящий мост",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.62946773622371,
+                    55.74948573050534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "наб. Тараса Шевченко, д. 23а",
+                "discipline": "Bridge",
+                "title": "Мост Багратион",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.5450480744758,
+                    55.74715544382998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Ленинский пр-т., 32А",
+                "discipline": "Viewpoint",
+                "title": "Смотровая площадка РАН",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.57833548592334,
+                    55.71225924324368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т Мира, 123Б",
+                "discipline": "Monument",
+                "title": "Рабочий и колхозница",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.64685332063018,
+                    55.828127138685325
                 ]
             }
         }

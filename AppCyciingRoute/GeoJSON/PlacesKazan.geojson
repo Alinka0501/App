@@ -50,7 +50,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Федосеевская, 36",
-                "discipline": "Palace",
+                "discipline": "Architecture",
                 "title": "Дворец Земледельцев",
             },
             "geometry": {
@@ -103,6 +103,576 @@
                 "coordinates": [
                     49.109816099999996,
                     55.80245746988076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Шейнкмана",
+                "discipline": "Architecture",
+                "title": "Башня Сююмбике",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.10521167301345,
+                    55.80045040000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Габдуллы Тукая, 74",
+                "discipline": "Architecture",
+                "title": "Дом Шамиля",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11541112883557,
+                    55.77750653398394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Кремлевская, 33",
+                "discipline": "Architecture",
+                "title": "Дом Ушковой",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.121096699999995,
+                    55.79163466820465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Сибгата Хакима, 4",
+                "discipline": "Architecture",
+                "title": "Дворец Бракосочетания",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.107719584657694,
+                    55.81271588588431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Кремлевская, 17/22",
+                "discipline": "Architecture",
+                "title": "Александровский Пассаж",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11523285027507,
+                    55.79400753779087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Старо-Аракчинская ул., 4",
+                "discipline": "Cathedral",
+                "title": "Вселенский Храм",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.97470127116443,
+                    55.80053998710623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Кремлевская, 18",
+                "discipline": "Architecture",
+                "title": "Казанский федеральный университет",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.12144564494021,
+                    55.790448596485966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Патриса Лумумбы, 47А",
+                "discipline": "Architecture",
+                "title": "Старый аэропорт",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.18738814047982,
+                    55.79310889470672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Лобачевского",
+                "discipline": "Architecture",
+                "title": "Арка влюбленных",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.12129909220567,
+                    55.794309317987185,
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пр-т. Хусаина Ямашева, 115 А",
+                "discipline": "Stadium",
+                "title": "Ак Барс Арена",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.160848099999995,
+                    55.8209959727523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Каюма Насыри, 33",
+                "discipline": "History",
+                "title": "Дом Исанбаевых",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.119305957671145,
+                    55.77743116600533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Каюма Насыри, 17",
+                "discipline": "Cathedral",
+                "title": "Мечеть Марджани",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11791585767115,
+                    55.779829366376646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Мусы Джалиля, 21",
+                "discipline": "Cathedral",
+                "title": "Петропавловский собор",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11333000369804,
+                    55.79340832728809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Шейнкмана",
+                "discipline": "Cathedral",
+                "title": "Благовещенский собор",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.105367644728,
+                    55.79979732525266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Баумана, 78",
+                "discipline": "Cathedral",
+                "title": "Богоявленский собор",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.118900515342304,
+                    55.78812940298839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пер. Архангельский, 1",
+                "discipline": "Cathedral",
+                "title": "Свято-Успенский Зилантов женский монастырь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.05597810979522,
+                    55.80774130703354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Мусина, 10",
+                "discipline": "Cathedral",
+                "title": "Мечеть Булгар",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.119990246026894,
+                    55.835047649859455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Островского, 73",
+                "discipline": "Cathedral",
+                "title": "Римско-католический приход Воздвижения Святого Креста",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.12715159260391,
+                    55.78297146686315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Хади Такташа, 26",
+                "discipline": "Cathedral",
+                "title": "Мечеть \"Закабанная\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.12813215767115,
+                    55.777567533974484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Кремлевская, 2",
+                "discipline": "Museum",
+                "title": "Национальный музей Республики Татарстан",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.109638,
+                    55.795791937697864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Ульянова-Ленина, 58",
+                "discipline": "Museum",
+                "title": "Дом-музей В.И. Ленина",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.138798028835566,
+                    55.78693426747679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Шейнкмана, 12",
+                "discipline": "Museum",
+                "title": "Национальная художественная галерея \"Хазинэ\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.105550357671156,
+                    55.7988867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Татарстан, 1",
+                "discipline": "Theatre",
+                "title": "Татарский Государственный Академический Театр им. Галиаскара Камала",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.1175001,
+                    55.78269946682106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Каюма Насыри, 38",
+                "discipline": "Place",
+                "title": "Старо-татарская слобода",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11872285952016,
+                    55.777761135783706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Туфана Миннуллина, 14/56",
+                "discipline": "Place",
+                "title": "Туган Авылым",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.135925699999994,
+                    55.779776833632404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Баумана, 50-52",
+                "discipline": "Monument",
+                "title": "Нулевой Меридиан",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11458698650672,
+                    55.790712568061856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. 1 Мая",
+                "discipline": "Monument",
+                "title": "Памятник Мусе Джалилю",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.1194013,
+                    55.79011916796998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Кировская Дамба, 2",
+                "discipline": "Monument",
+                "title": "Храм-памятник Спаса Нерукотворного",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.07732482873661,
+                    55.800910866104985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Театральная ул., 2",
+                "discipline": "Monument",
+                "title": "Памятник Габдулле Тукаю",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.12442792883557,
+                    55.79540086878789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Баумана",
+                "discipline": "Monument",
+                "title": "Памятник Фёдору Шаляпину",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11977205767114,
+                    55.7880733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Тысячелетия, 2",
+                "discipline": "Place",
+                "title": "Казанский цирк",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.1003840693154,
+                    55.79888979692749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Петербургская, 57",
+                "discipline": "Theatre ",
+                "title": "Театр кукол \"Экият\"",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.13802125027507,
+                    55.779738391283104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Казань",
+                "discipline": "Place",
+                "title": "Парк Тысячелетия Казани",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.123728328835575,
+                    55.783437166132245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Бондаренко",
+                "discipline": "Place",
+                "title": "Парк Победы",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.10737222883558,
+                    55.82940447405496
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Большая Красная, 5",
+                "discipline": "Cathedral",
+                "title": "Казанско-Богородицкий мужской монастырь",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11383002883557,
+                    55.79871594562315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "Казань",
+                "discipline": "Place",
+                "title": "Парк имени Урицкого",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.06404792883558,
+                    55.83768037533718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "пл. Свободы",
+                "discipline": "Theatre",
+                "title": "Татарский академический государственный театр оперы и балета им.М.Джалиля",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.12481061719131,
+                    55.79523684382185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "locationName": "ул. Парижской Коммуны, 18А",
+                "discipline": "Museum",
+                "title": "Музей Чак-Чака",
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.11256536831401,
+                    55.78203578452421
                 ]
             }
         }

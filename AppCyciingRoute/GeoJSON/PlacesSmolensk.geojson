@@ -155,7 +155,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Коммунистическая ул., 4",
-                "discipline": "Cathedral",
+                "discipline": "Museum",
                 "title": "Художественная Галерея",
             },
             "geometry": {
@@ -170,7 +170,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Глинки, 1",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Скульптура Олень",
             },
             "geometry": {
@@ -200,7 +200,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Маршала Жукова, 6",
-                "discipline": "Theatre",
+                "discipline": "History",
                 "title": "Никольская башня",
             },
             "geometry": {
@@ -215,7 +215,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Беляева",
-                "discipline": "Monument",
+                "discipline": "History",
                 "title": "Днепровские ворота",
             },
             "geometry": {
@@ -230,7 +230,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Октябрьской Революции, 3",
-                "discipline": "Cathedral",
+                "discipline": "History",
                 "title": "Копытенская башня",
             },
             "geometry": {
@@ -245,7 +245,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Смоленск",
-                "discipline": "Monument",
+                "discipline": "Place",
                 "title": "Сквер Памяти Героев",
             },
             "geometry": {
@@ -260,7 +260,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Большая Советская, 9",
-                "discipline": "Place",
+                "discipline": "Cathedral",
                 "title": "Свято-Троицкий монастырь",
             },
             "geometry": {
@@ -275,7 +275,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Маршала Жукова, 24",
-                "discipline": "History",
+                "discipline": "Cathedral",
                 "title": "Спасо-Преображенский Авраамиев Мужской Монастырь",
             },
             "geometry": {
@@ -305,7 +305,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Соборная Гора",
-                "discipline": "Cathedral",
+                "discipline": "Monument",
                 "title": "Памятник М.И. Кутузову",
             },
             "geometry": {
@@ -320,7 +320,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Большая Краснофлотская",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник князю Владимиру",
             },
             "geometry": {
@@ -335,7 +335,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Дзержинского, 12",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник Фёдору Коню",
             },
             "geometry": {
@@ -350,7 +350,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Лопатинский сад, ул. Ленина, 2",
-                "discipline": "Theatre",
+                "discipline": "Monument",
                 "title": "Памятник защитникам Смоленска 4-5 августа 1812 года",
             },
             "geometry": {
@@ -380,7 +380,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Ленина, 8",
-                "discipline": "Cathedral",
+                "discipline": "Museum",
                 "title": "Исторический музей",
             },
             "geometry": {
@@ -395,7 +395,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Маяковского, 7",
-                "discipline": "Monument",
+                "discipline": "Museum",
                 "title": "Музей скульптуры С.Т.Коненкова",
             },
             "geometry": {
@@ -410,7 +410,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Дзержинского, 4А",
-                "discipline": "Place",
+                "discipline": "Museum",
                 "title": "Музей \"Смоленщина в годы Великой Отечественной войны\"",
             },
             "geometry": {
@@ -425,7 +425,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Дзержинского, 15А",
-                "discipline": "History",
+                "discipline": "Theatre",
                 "title": "Кукольный театр имени Д.Н. Светильникова",
             },
             "geometry": {
@@ -440,7 +440,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Парковая ул., 4А",
-                "discipline": "Monument",
+                "discipline": "Cathedral",
                 "title": "Церковь Михаила Архангела",
             },
             "geometry": {
@@ -455,7 +455,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Кашена, 20",
-                "discipline": "Monument",
+                "discipline": "Cathedral",
                 "title": "Церковь Петра и Павла",
             },
             "geometry": {
@@ -470,7 +470,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Большая Краснофлотская, 15Ас1",
-                "discipline": "Monument",
+                "discipline": "Cathedral",
                 "title": "Церковь Иоанна Богослова",
             },
             "geometry": {
@@ -485,7 +485,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Привокзальная пл, 1",
-                "discipline": "Monument",
+                "discipline": "Architecture",
                 "title": "Станция \"Смоленск-Центральный\"",
             },
             "geometry": {
@@ -500,7 +500,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Глинки, 4",
-                "discipline": "Monument",
+                "discipline": "Architecture",
                 "title": "Дом Энгельгардта",
             },
             "geometry": {
@@ -515,7 +515,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Ленина, 10А",
-                "discipline": "Monument",
+                "discipline": "Museum",
                 "title": "Городская кузница XVII-XVIII в.в.",
             },
             "geometry": {
@@ -530,7 +530,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Дзержинского, 11",
-                "discipline": "Cathedral",
+                "discipline": "Monument",
                 "title": "Мемориальный знак в честь освобождения Смоленщины от немецко-фашистских оккупантов",
             },
             "geometry": {
@@ -545,7 +545,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Дзержинского, 19",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Бюст А.С.Пушкина",
             },
             "geometry": {
@@ -560,7 +560,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Барклая-де-Толли, 7",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник \"Опалённый цветок\"",
             },
             "geometry": {
@@ -575,7 +575,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Реадовский парк",
-                "discipline": "Theatre",
+                "discipline": "Monument",
                 "title": "Мемориал \"Скорбящая мать\"",
             },
             "geometry": {
@@ -604,21 +604,6 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "Коммунистическая ул.",
-                "discipline": "Cathedral",
-                "title": "Памятник \"Равновесие\"",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.0448641,
-                    54.781019685113954
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "locationName": "ул. Глинки, 3",
                 "discipline": "Monument",
                 "title": "Памятник М.И.Глинке",
@@ -635,7 +620,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Витебское ш., 10",
-                "discipline": "Place",
+                "discipline": "Monument",
                 "title": "Мемориал воинам-железнодорожникам",
             },
             "geometry": {
@@ -650,7 +635,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Фрунзе, 56",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Самолет ЯК-42",
             },
             "geometry": {
@@ -664,23 +649,8 @@
         {
             "type": "Feature",
             "properties": {
-                "locationName": "пос. Валутино",
-                "discipline": "Monument",
-                "title": "Памятник воинам, павшим во время Смоленской войны 1632-1634 г.г.",
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.13441102715053,
-                    54.81168297209276
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "locationName": "ул. Тенишевой, 5",
-                "discipline": "Cathedral",
+                "discipline": "Monument",
                 "title": "Памятник М.О. Микешину",
             },
             "geometry": {
@@ -695,7 +665,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "пр. Гагарина, 13/2",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник солдатам правопорядка",
             },
             "geometry": {
@@ -710,7 +680,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "ул. Ленина, 2",
-                "discipline": "History",
+                "discipline": "Monument",
                 "title": "Памятник А.Г.Лопатину",
             },
             "geometry": {
@@ -725,7 +695,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "пр. Гагарина, 15",
-                "discipline": "Theatre",
+                "discipline": "Monument",
                 "title": "Бюст Ю.А.Гагарина",
             },
             "geometry": {
@@ -755,7 +725,7 @@
             "type": "Feature",
             "properties": {
                 "locationName": "Коммунистическая ул., 21",
-                "discipline": "Cathedral",
+                "discipline": "Monument",
                 "title": "Памятник Н.В.Крыленко",
             },
             "geometry": {

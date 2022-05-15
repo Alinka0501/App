@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ED0123B127AEE0F6003C4AC1 /* PlacesMoscow.geojson in Resources */ = {isa = PBXBuildFile; fileRef = ED0123B027AEE0F6003C4AC1 /* PlacesMoscow.geojson */; };
-		ED127FC527C1601400026D94 /* PlacesParis.geojson in Resources */ = {isa = PBXBuildFile; fileRef = ED127FC427C1601400026D94 /* PlacesParis.geojson */; };
+		ED0FF7492822D79D00B59E0C /* TimeMatrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FF7482822D79D00B59E0C /* TimeMatrices.swift */; };
+		ED145270280B027D0025D358 /* PlacesKaliningrad.geojson in Resources */ = {isa = PBXBuildFile; fileRef = ED14526F280B027D0025D358 /* PlacesKaliningrad.geojson */; };
 		ED1AD424278CAD7A0019C3AE /* PlacesSmolensk.geojson in Resources */ = {isa = PBXBuildFile; fileRef = ED1AD423278CAD790019C3AE /* PlacesSmolensk.geojson */; };
 		ED27382227884A5600CF33D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27382127884A5600CF33D8 /* AppDelegate.swift */; };
 		ED27382427884A5600CF33D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27382327884A5600CF33D8 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 		ED27384327884A6000CF33D8 /* AppCyciingRouteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27384227884A6000CF33D8 /* AppCyciingRouteUITests.swift */; };
 		ED27384527884A6000CF33D8 /* AppCyciingRouteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27384427884A6000CF33D8 /* AppCyciingRouteUITestsLaunchTests.swift */; };
 		ED27385227885B1100CF33D8 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27385127885B1000CF33D8 /* Places.swift */; };
+		ED2FFAD3280AC94100AF5542 /* Test.geojson in Resources */ = {isa = PBXBuildFile; fileRef = ED2FFAD2280AC94100AF5542 /* Test.geojson */; };
 		ED30937827CCF48700FF2154 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30937727CCF48700FF2154 /* Alert.swift */; };
 		ED388ED027AC3D44009F6812 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED388ECF27AC3D44009F6812 /* Route.swift */; };
 		ED450A7C27A1934E0035D689 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED450A7B27A1934E0035D689 /* MenuViewController.swift */; };
@@ -47,7 +49,8 @@
 
 /* Begin PBXFileReference section */
 		ED0123B027AEE0F6003C4AC1 /* PlacesMoscow.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = PlacesMoscow.geojson; sourceTree = "<group>"; };
-		ED127FC427C1601400026D94 /* PlacesParis.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = PlacesParis.geojson; sourceTree = "<group>"; };
+		ED0FF7482822D79D00B59E0C /* TimeMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMatrices.swift; sourceTree = "<group>"; };
+		ED14526F280B027D0025D358 /* PlacesKaliningrad.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = PlacesKaliningrad.geojson; sourceTree = "<group>"; };
 		ED1AD423278CAD790019C3AE /* PlacesSmolensk.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = PlacesSmolensk.geojson; sourceTree = "<group>"; };
 		ED27381E27884A5600CF33D8 /* AppCyciingRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCyciingRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED27382127884A5600CF33D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		ED27384227884A6000CF33D8 /* AppCyciingRouteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCyciingRouteUITests.swift; sourceTree = "<group>"; };
 		ED27384427884A6000CF33D8 /* AppCyciingRouteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCyciingRouteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED27385127885B1000CF33D8 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		ED2FFAD2280AC94100AF5542 /* Test.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test.geojson; sourceTree = "<group>"; };
 		ED30937727CCF48700FF2154 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		ED388ECF27AC3D44009F6812 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		ED450A7B27A1934E0035D689 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				ED450A7B27A1934E0035D689 /* MenuViewController.swift */,
 				ED388ECF27AC3D44009F6812 /* Route.swift */,
 				ED30937727CCF48700FF2154 /* Alert.swift */,
+				ED0FF7482822D79D00B59E0C /* TimeMatrices.swift */,
 			);
 			path = AppCyciingRoute;
 			sourceTree = "<group>";
@@ -158,9 +163,10 @@
 			children = (
 				ED0123B027AEE0F6003C4AC1 /* PlacesMoscow.geojson */,
 				ED1AD423278CAD790019C3AE /* PlacesSmolensk.geojson */,
-				ED127FC427C1601400026D94 /* PlacesParis.geojson */,
 				ED4DA33527C9505800049B06 /* PlacesStPeterburg.geojson */,
 				ED4B4D8F27E3C66A00BC9DFB /* PlacesKazan.geojson */,
+				ED2FFAD2280AC94100AF5542 /* Test.geojson */,
+				ED14526F280B027D0025D358 /* PlacesKaliningrad.geojson */,
 			);
 			path = GeoJSON;
 			sourceTree = "<group>";
@@ -271,11 +277,12 @@
 			files = (
 				ED4DA33627C9505800049B06 /* PlacesStPeterburg.geojson in Resources */,
 				ED27382E27884A5F00CF33D8 /* LaunchScreen.storyboard in Resources */,
-				ED127FC527C1601400026D94 /* PlacesParis.geojson in Resources */,
+				ED2FFAD3280AC94100AF5542 /* Test.geojson in Resources */,
 				ED4B4D9027E3C66A00BC9DFB /* PlacesKazan.geojson in Resources */,
 				ED1AD424278CAD7A0019C3AE /* PlacesSmolensk.geojson in Resources */,
 				ED27382B27884A5F00CF33D8 /* Assets.xcassets in Resources */,
 				ED0123B127AEE0F6003C4AC1 /* PlacesMoscow.geojson in Resources */,
+				ED145270280B027D0025D358 /* PlacesKaliningrad.geojson in Resources */,
 				ED27382927884A5600CF33D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +311,7 @@
 				ED30937827CCF48700FF2154 /* Alert.swift in Sources */,
 				ED27382627884A5600CF33D8 /* ViewController.swift in Sources */,
 				ED450A7C27A1934E0035D689 /* MenuViewController.swift in Sources */,
+				ED0FF7492822D79D00B59E0C /* TimeMatrices.swift in Sources */,
 				ED27382227884A5600CF33D8 /* AppDelegate.swift in Sources */,
 				ED27382427884A5600CF33D8 /* SceneDelegate.swift in Sources */,
 				ED27385227885B1100CF33D8 /* Places.swift in Sources */,
